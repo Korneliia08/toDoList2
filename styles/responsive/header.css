@@ -1,0 +1,40 @@
+@media (max-width: 780px) {
+    .h1Style {
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    .time {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 550px) {
+    .header {
+        height: 80px;
+    }
+
+    .h1Style {
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    .time {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header {
+        height: 60px;
+    }
+
+    .h1Style {
+        font-size: 12px;
+    }
+
+    .time {
+        font-size: 15px;
+    }
+}
+

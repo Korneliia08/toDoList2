@@ -1,0 +1,122 @@
+.wrapper main {
+    background-color: #e2d9e7;
+    box-sizing: border-box;
+    min-height: calc(100% - 120px);
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 20px;
+}
+
+.wrapper main .formForCreateList {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 20px;
+    box-sizing: border-box;
+}
+
+.wrapper main .lists {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btnAddArray {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #e6efee;
+    border: 4px inset #ac0eb0;
+    color: #780a7e;
+    font-weight: bold;
+    transition: 5ms;
+}
+
+.btnAddArray:hover {
+    cursor: pointer;
+    background-color: #dbe3e2;
+    border: 4px inset #7b077e;
+}
+
+.btnAddArray:active {
+    background-color: #ece6e6;
+}
+
+.btnAddNameArray {
+    background-color: transparent;
+    color: #6d048c;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid #6d048c;
+    width: 280px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.btnAddNameArray::placeholder {
+    color: rgba(109, 4, 140, 0.39);
+    letter-spacing: 2px;
+}
+
+
+.btnCreateArray {
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: white;
+    border: 2px solid white;
+    color: #501e6b
+}
+
+.btnCreateArray:hover {
+    cursor: pointer;
+    background-color: #efecec;
+    color: #501e6b;
+}
+
+.btnCreateArray:active {
+    background-color: #e1e0e1;
+}
+
+.confirmDeleteList {
+    width: 250px;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 21px;
+    background-color: rgba(143, 1, 182, 0.37);
+    border: 2px outset #550ab2;
+    color: #1b0677;
+}
+
+.notFound {
+    color: #a60404;
+}
+
+
+.h3Style {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #4e1bcc;
+    font-weight: bold;
+    text-align: center;
+}
+
+.redBorder {
+    border: 2px solid #42008f;
+   
+}
+
+.emptyInput {
+    color: #a60404;
+    font-family: sans-serif;
+}

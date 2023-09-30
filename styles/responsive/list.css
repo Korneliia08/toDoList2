@@ -1,0 +1,7 @@
+@media (max-width: 400px) {
+    .list {
+        padding: 5px;
+        width: calc(100% / 4 - 30px);
+        min-width: 240px;
+    }
+}

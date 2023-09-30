@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>ITVDN</title>
+    <link href="./styles/startPanel.css" rel="stylesheet">
+    <link href="./styles/header.css" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
+    <link href="./styles/panelForLists.css" rel="stylesheet">
+    <link href="styles/list.css" rel="stylesheet">
+    <link href="./styles/panelForCreateTasks.css" rel="stylesheet">
+    <link href="./styles/footer.css" rel="stylesheet">
+    <link href="./styles/tasks.css" rel="stylesheet">
+    <link href="./styles/responsive/startPanel.css" rel="stylesheet">
+    <link href="./styles/responsive/header.css" rel="stylesheet">
+    <link href="./styles/responsive/main.css" rel="stylesheet">
+    <link href="./styles/responsive/panelForLists.css" rel="stylesheet">
+    <link href="./styles/responsive/list.css" rel="stylesheet">
+    <link href="./styles/responsive/footer.css" rel="stylesheet">
+    <link href="./styles/responsive/task.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="headerBlock"></div>
+    </header>
+    <main>
+        <div class="formForCreateList"></div>
+        <div class="lists"></div>
+    </main>
+    <footer><h5>&copy;Made by Korneliia</h5></footer>
+
+    <template id="templateCreatePanelForCreateTask">
+        <h2 class="titleInPanelCreateTask">You do not have any tasks entered in this table, add the first task</h2>
+        <table>
+            <tr>
+                <td>Name Of Task</td>
+                <td>
+
+                    <input class="inputForName" placeholder="name" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Describe Of Task</td>
+                <td>
+                    <textarea class="areaForDescribe" placeholder="decsribe"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Term</td>
+                <td>
+                    <input class="inputForDate" type="date" value="08.06.2023">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="inputCreateTask" type="submit" value="Create">
+                </td>
+            </tr>
+        </table>
+    </template>
+
+</div>
+
+
+<script src="scripts/startPanel.js"></script>
+<script src="scripts/header.js"></script>
+<script src="scripts/tasksInList.js"></script>
+<script src="scripts/listForTasks.js"></script>
+<script src="scripts/panelForLists.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

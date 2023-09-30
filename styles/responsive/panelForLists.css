@@ -1,0 +1,91 @@
+@media (max-width: 1020px) {
+    .h3Style {
+        font-size: 15px;
+    }
+
+    .confirmDeleteList {
+        width: 200px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 915px) {
+    .wrapper main .formForCreateList {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .confirmDeleteList {
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 780px) {
+    .btnAddNameArray {
+        width: 210px;
+        padding: 5px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    .btnAddNameArray {
+        width: 200px;
+        padding: 4px;
+    }
+
+    .btnCreateArray {
+        padding: 4px;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    .emptyInput {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    .wrapper main {
+        min-height: calc(100% - 100px);
+    }
+
+    .btnAddArray {
+        padding: 8px;
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+    .wrapper main {
+        min-height: calc(100% - 80px);
+    }
+
+    .btnAddArray {
+        padding: 5px;
+        border-radius: 20px;
+        font-size: 14px;
+        border: 4px inset #ac0eb0;
+    }
+
+    .btnAddNameArray {
+        width: 200px;
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .wrapper main {
+        min-height: calc(100% - 80px);
+    }
+}
+

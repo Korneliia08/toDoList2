@@ -1,0 +1,143 @@
+.panelForTasks {
+    background-color: #d8cedab3;
+    width: 80%;
+    border-radius: 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px outset #860aaa;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 40px 0px inset #9c1cc254;
+    row-gap: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    counter-increment: task;
+    padding: 5px;
+    column-gap: 5px;
+    background-color: #d2a7f8ba;
+    border-radius: 20px;
+}
+
+.task::before {
+    content: counter(task) ".";
+    padding-right: 5px;
+    font-size: 25px;
+    color: #3b0072;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
+}
+
+.taskIsDone {
+    background-color: #30b51b75;
+}
+
+
+.taskIsNotDone {
+    background-color: #b60b0b;
+}
+
+
+.titleOfTask {
+    width: 20vw;
+    font-size: 25px;
+    color: #3b0072;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
+}
+
+.titleOfTaskEdit {
+    padding: 5px;
+    width: calc(20vw - 25px);
+    background-color: rgb(213 189 253);
+    border-radius: 20px;
+    color: #2f004b;
+    font-weight: bold;
+    border: 2px inset #00b00c;
+    font-size: 15px;
+}
+
+.describeOfTask {
+    width: 30vw;
+    font-size: 25px;
+    overflow: auto;
+    word-wrap: break-word;
+    color: #3b0072;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
+}
+
+.describeOfTaskEdit {
+    padding: 5px;
+    height: 40px;
+    width: calc(30vw - 25px);
+    resize: none;
+    background-color: rgb(213 189 253);
+    border-radius: 20px;
+    color: #2f004b;
+    font-weight: bold;
+    border: 2px inset #00b00c;
+    font-size: 15px;
+}
+
+.termOfTask {
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 20vw;
+    color: #3b0072;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px black;
+}
+
+.termOfTaskEdit {
+    border-radius: 20px;
+    padding: 5px;
+    width: calc(23vw - 20px);
+    background-color: rgb(213 189 253);
+    color: #2f004b;
+    font-weight: bold;
+    border: 2px inset #00b00c;
+    font-size: 15px;
+}
+
+.title {
+    color: #860aaa;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px white;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+.title span {
+    text-decoration: underline;
+    text-shadow: 1px 0px 1px #252525;
+    font-size: 22px;
+}
+
+.btnDeleteTaskAndEdit {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ac19d6;
+    border: 2px inset #ee1dee;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 2px 1px gray;
+    margin-right: 2px;
+    transition: 50ms;
+}
+
+.btnDeleteTaskAndEdit:hover {
+    cursor: pointer;
+    background-color: #D3B0F1;
+    color: #690885;
+    text-shadow: none;
+}

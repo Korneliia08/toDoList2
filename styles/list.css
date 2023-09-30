@@ -1,0 +1,143 @@
+.list {
+    padding: 8px;
+    background-color: transparent;
+    border: 2px inset white;
+    width: calc(100% / 4 - 30px);
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.titleList {
+    text-align: center;
+    width: 100%;
+    color: #6d048c;
+    font-size: 25px;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #676666;
+}
+
+.inputDelete {
+    background-color: #de0808;
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 1px solid #800202;
+    transition: 1s;
+}
+
+.inputDelete:hover {
+    cursor: pointer;
+    background-color: #a90303;
+}
+
+.inputDelete:active {
+    background-color: #d50707;
+}
+
+.inputShowTasks {
+    background-color: #058c02;
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 1px solid #0e6201;
+    transition: 1s;
+}
+
+.inputShowTasks:hover {
+    cursor: pointer;
+    background-color: #036501;
+}
+
+.inputShowTasks:active {
+    background-color: #069f03;
+}
+
+.btnAddNewTask {
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px inset #ee1dee;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    background-color: #ac19d6;
+    font-size: 16px;
+    transition: 50ms;
+}
+
+.btnAddNewTask:hover {
+    cursor: pointer;
+    background-color: #9611bd;
+}
+
+.btnAddNewTask:active {
+    background-color: #790a9a;
+}
+
+.titleTable {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    column-gap: 5px;
+    padding: 10px 10px 10px 15px;
+    border-radius: 20px;
+    margin: 0 5px 0 0;
+}
+
+.divForConfirmDelete {
+    padding: 10px;
+    background-color: rgb(207 61 11 / 0%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 80px 1px inset rgb(213 0 0);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.titleDeleteTask {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.inputConfirmDelete {
+    padding: 2px;
+    background-color: #ffffffb8;
+    border: 2px inset red;
+    border-radius: 7px;
+    color: red;
+    font-weight: bold;
+}
+
+.btnsSort {
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px inset #a26001;
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    background-color: #976e0e;
+    font-size: 16px;
+    box-shadow: 1px 1px 15px 1px inset #9a8d0bd4;
+    width: 100px;
+    margin: 5px;
+    transition: 50ms;
+}
+
+.btnsSort:hover {
+    cursor: pointer;
+    background-color: #85600b;
+}
+
+.btnsSort:active {
+    background-color: #ad7703;
+}
+
+
+

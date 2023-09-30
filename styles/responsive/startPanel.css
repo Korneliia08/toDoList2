@@ -1,0 +1,56 @@
+@media (max-width: 950px) {
+    .startPanel {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .ulList {
+        width: 80%;
+
+    }
+
+    .li {
+        margin: 5px;
+        font-size: 18px;
+    }
+
+    .h1Title {
+        font-size: 25px;
+        margin: 10px 0 10px 0;
+    }
+
+    .form {
+        row-gap: 5px;
+    }
+
+    .h2Style {
+        font-size: 22px;
+    }
+
+    .label {
+        width: 200px;
+        font-size: 18px;
+    }
+
+
+    .button {
+        width: 100px;
+    }
+}
+
+@media (max-width: 580px) {
+    .li {
+        font-size: 15px;
+    }
+
+    .h1Title {
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .h2Style {
+        font-size: 20px;
+        text-align: center;
+    }
+}

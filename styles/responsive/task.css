@@ -1,0 +1,70 @@
+@media (max-width: 950px) {
+    .title {
+        font-size: 25px;
+
+    }
+
+    .termOfTask, .describeOfTask, .titleOfTask {
+
+        font-size: 17px;
+    }
+
+    .task::before {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 580px) {
+    .title {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .title span {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .termOfTask, .describeOfTask, .titleOfTask {
+
+        font-size: 12px;
+        width: auto;
+    }
+
+    .termOfTaskEdit, .describeOfTaskEdit, .titleOfTaskEdit {
+
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .task::before {
+        font-size: 12px;
+        position: absolute;
+        left: 9px;
+    }
+
+    .task input[type=checkbox] {
+        position: relative;
+        top: 3px;
+    }
+
+    .btnDeleteTaskAndEdit {
+        font-size: 11px;
+        margin-right: 10px;
+        padding: 3px;
+        width: 60px;
+
+    }
+
+    .task {
+        position: relative;
+        padding-left: 25px;
+        display: block;
+    }
+
+    .btnAddNewTask, .btnsSort {
+
+        font-size: 13px;
+        padding: 3px;
+    }
+}
